@@ -13,9 +13,6 @@ class Project():
 		self.dir = os.getcwd() 
 		self.dir = string.replace(self.dir, "run.py", "")		
 		
-		# Search for source files in src subfolder
-		self.dir += "\\src"
-		
 		name = ""
 		
 		# Parse folder name

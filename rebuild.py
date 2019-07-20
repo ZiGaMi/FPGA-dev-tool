@@ -14,7 +14,7 @@ class Project():
 		self.dir = string.replace(self.dir, "rebuild.py", "")
 		
 		# Search for source file in src subfolder
-		self.dir += "\\src"
+		#self.dir += "\\src"
 		
 		name = ""
 		
